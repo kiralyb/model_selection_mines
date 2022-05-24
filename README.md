@@ -4,7 +4,7 @@
 
 This repository contains MATLAB code for simulating and solving example model selection and cluster analysis problems common in neuroscience.
 
-The figures of 'Navigating the statistical minefield of model selection and clustering in neuroscience' by Király & Hangya can be produced with the main_msacl function. Figure 2d relies on publicaly humna RNA-sequencing data (https://portal.brain-map.org/atlases-and-data/rnaseq/human-multiple-cortical-areas-smart-seq).
+The figures of 'Navigating the statistical minefield of model selection and clustering in neuroscience' by Király & Hangya can be produced with the main_msacl function. Figure 2d relies on publically available humna RNA-sequencing data (https://portal.brain-map.org/atlases-and-data/rnaseq/human-multiple-cortical-areas-smart-seq).
 
 ## Content
 
