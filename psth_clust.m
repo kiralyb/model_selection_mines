@@ -1,8 +1,8 @@
 function psth_clust
-%PSTH_CLUST     Performing dimensionality reduction and hierarhical
+%PSTH_CLUST     Performing dimensionality reduction and hierarchical
 %clustering on simulated psth data 
 
-%   B·lint Kir·ly
+%   B√°lint Kir√°ly
 %   Institute of Experimental Medicine, Budapest, Hungary
 %   kiraly.balint@koki.hu
 %   29-Jun-2021
