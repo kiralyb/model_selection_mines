@@ -1,18 +1,21 @@
 function rnaseq_clustering(expression,marker_expression,clusternum,PCA_num)
 %RNASEQ_CLUSTERING    Clustering of cells based on gene expression
 %RNASEQ_CLUSTERING(EXPRESSION,M_EXPRESSION,CLUSTERNUM,PCA_NUM) %  Performs
-% agglomerative hierarhical clustering on RNA-sequencing data (EXPRESSION) 
-% based on the first PCA_NUM principcal components to CLUSTERNUM clusters.
+% agglomerative hierarhical clustering on RNA-sequencing data based on the
+% first PCA_NUM principcal components to CLUSTERNUM clusters. The expresson
+% of marker genes is used for visualization. 
 % Soft k-means clustering based on the gene expression for two clusters 
 % (excitatory, inhibitory) is also performed for comparison.
-% The expresson of marker genes (MARKER_EXPRESSION) is used for
-% visualization. 
-% EXPRESSION is a n-by-m matrix where n is the number of cells and m is the
-% number of genes.
-% MARKER_EXPRESSION is a n-by-m matrix where n is the number of cells and m
-% is the number of marker genes.
 
-%   B·lint Kir·ly
+%   Required input arguments:
+%       EXPRESSION: RNA-sequencing data in a n-by-m matrix where n is the
+%       number of cells and m is the number of genes.
+%       MARKER_EXPRESSION: Marker gene expression data in a n-by-m matrix
+%       where n is the number of cells and m is the number of marker genes.
+%       CLUSTERNUM: Required number of clusters
+%       PCA_NUM: Number of principal components to use for clustering.
+
+%   B√°lint Kir√°ly
 %   Institute of Experimental Medicine, Budapest, Hungary
 %   kiraly.balint@koki.hu
 %   29-Jun-2021
