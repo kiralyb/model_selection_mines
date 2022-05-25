@@ -1,9 +1,14 @@
 function kmeans_spikesorting_simulation(start)
 %KMEANS_SPIKESORTING_SIMULATION     Performs k-means spike sorting on
-%simulated data from starting centroid locations defined in START and
-%applys the Elbow method to find the optimal number of clusters
+%simulated data with k-s between 1 and 10. The Elbow method is applied
+% to find the optimal number of clusters. The result of the clustering
+% is plotted for k = 4.
 
-%   B·lint Kir·ly
+%   Required input arguments:
+%       START: Initial coordiantes of the four centroids for the plot
+%       in [x1,x2,x3,x4;y1,y2,y3,y4] format.
+
+%   B√°lint Kir√°ly
 %   Institute of Experimental Medicine, Budapest, Hungary
 %   kiraly.balint@koki.hu
 %   29-Jun-2021
