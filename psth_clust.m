@@ -1,6 +1,7 @@
 function psth_clust
-%PSTH_CLUST     Performing dimensionality reduction and hierarchical
-%clustering on simulated psth data 
+%PSTH_CLUST     Performing dimensionality reduction with principal component
+% analysis and hierarchical clustering on simulated PSTH data. Clustered 
+% PSTHs, the scatter plot of the PSTHs in the PCA space and the dendrogram is plotted. 
 
 %   Bálint Király
 %   Institute of Experimental Medicine, Budapest, Hungary
