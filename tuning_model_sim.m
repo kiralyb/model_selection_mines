@@ -35,9 +35,9 @@ end
 
 % perform tuning gain model simulation simnum times
 Diff = zeros(1,simnum);
-AIC = zeros(1,simnum);
+AIC = zeros(2,simnum);
 for i=1:simnum
-    [Diff(i),AIC(i,:)] = tuning_curve_fit(wind,mu,sigma,const,gain_factor,additive_factor,noise_snr,figvis);    
+    [Diff(i),AIC(:,i)] = tuning_curve_fit(wind,mu,sigma,const,gain_factor,additive_factor,noise_snr,figvis);    
 end
 
 if simnum > 1
